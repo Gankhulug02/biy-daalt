@@ -221,7 +221,7 @@ header{
     height: 800px;
 }
 .feaures-section-top{
-    width: 1420px;
+    /* width: 1420px; */
     /* background-color: thistle; */
     display: flex;
     justify-content: space-between;
@@ -468,11 +468,15 @@ nav:nth-child(2){
 .CTA-section{
     display: flex;
 }
-.CTA-image{
+.CTA-section img{
+    /* display: flex; */
+    flex: 1;
+}
+/* .CTA-image{
     flex: 1;
     display: flex;
     justify-content: end;
-}
+} */
 .CTA-right{
     background-color:#F58A07;
     padding: 128px;
@@ -533,12 +537,13 @@ nav:nth-child(2){
     margin: 0;
     padding: 0%;
 }
-.person{
-    display: flex;
+.about-image{
+    position: relative;
 }
-.person img{
-    max-width: 80px;
-    max-height: 80px;
+.play-icon{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
 }
 .person-text{
     margin-left: 24px;
@@ -561,6 +566,35 @@ nav:nth-child(2){
     line-height: 171%;
     color: #F58A07;
 }
+.feature-orange{
+    width: 96px;
+    height: 97px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+}
+.feature-1-orange{
+    top: 128px;
+    left: -48px;
+}
+.feature-2-orange{
+    right: -48px;
+    top: 272px;
+
+}
+.feature-3-orange{
+    left: -48px;
+    top: 217px;
+}
+.feature-4-orange{
+    right: -48px;
+    top: 272px;
+}
+.feature-5-orange{
+    left: -48px;
+    top: 342px;
+}
 .blue{
     background-color: #DCEAF5;
 }
@@ -568,7 +602,7 @@ nav:nth-child(2){
     /* margin-left: 22.6%; */
     max-width: 735px;
     height:50px;
-    margin-top: -200px;
+    margin-bottom: px;
 }
 .latest-section h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -596,8 +630,8 @@ nav:nth-child(2){
 .blog-items img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 445px;
-    height: 260px;
+    max-width: 400px;
+    max-height: 230px;
 }
 .blog-item{
     background-color: white;
@@ -653,6 +687,7 @@ footer{
     color: white;
     height: 463px;
     position: relative;
+    margin-top: -128px;
 }
 .footer-top{
     display: flex;
