@@ -694,7 +694,7 @@ footer{
     position: absolute;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-left: 1620px;
+    margin-left: 1990px;
     margin-top: 40px;
 }
 .orange-left{
@@ -704,5 +704,5 @@ footer{
     position: absolute;
     background-color: #F58A07;
     margin-top: 319px;
-    margin-left: -250px;
+    /* margin-left: -250px; */
 }
