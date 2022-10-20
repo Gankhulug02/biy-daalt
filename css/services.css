@@ -65,6 +65,7 @@ nav p{
 header{
     display: flex;
     justify-content: space-between;
+    margin-top: 122px;
 }
 .h-left{
     height: fit-content;
