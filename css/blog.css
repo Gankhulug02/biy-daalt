@@ -85,10 +85,14 @@ header{
 .header-member{
     display: flex;
     align-items: center;
+    /* width: 450px ; */
 }
 .header-member img{
     width: 32px;
     height: 32px;
+}
+.header-member p:last-child{
+    margin-left:24px ;
 }
 .h-left h1{
     max-width: 527px;
