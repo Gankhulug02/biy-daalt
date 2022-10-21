@@ -62,6 +62,9 @@ nav p{
     padding: 18px 30px;
     font-family:Arial, Helvetica, sans-serif;
 }
+header{
+    margin-top: 120px;
+}
 header img{
     border-radius: 20px;
 }
@@ -75,6 +78,31 @@ header img{
 }
 .member p:last-child{
     margin-left:24px ;
+}
+.blog-item-text h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+}
+.blog-item-text p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+.blog-item-text{
+    margin: auto;
+    /* background-color: wheat; */
+    max-width: 752px;
+    height:fit-content;
+    margin-bottom: 128px;
+}
+.blog-item-text p{
+    margin: 24px 0px 24px 0px;
 }
 footer{
     background: #063255;
