@@ -364,7 +364,20 @@ footer{
 .subscribe{
     display: flex;
     flex-direction: column;
+    width: 342px;
 }
+.subscribe ::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;  
+    color: #9C9C9C;
+ }
+ .subscribe input{
+    padding: 18px 32px;
+    border-width: 0ch;
+    border-radius: 100px;
+    margin-bottom: 16px;
+ }
 .subscribe p{
     color:#9C9C9C;
     width: 342px;
@@ -408,4 +421,15 @@ footer{
     position: absolute;
     background-color: #F58A07;
     top: 319px;
+}
+button{
+    border-width: 0cm;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: white;
+    background-color: #F58A07;
+    padding: 18px 32px;
+    border-radius: 40px;
+    width: fit-content;
 }

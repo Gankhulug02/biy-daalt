@@ -50,7 +50,7 @@
     align-items: center;
     color: #394149;
  }
- nav p{
+nav p{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -67,7 +67,7 @@ header{
     justify-content: space-between;
     margin-top: 120px; 
 }
-body p{
+header p{
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
@@ -163,6 +163,7 @@ button{
  .subscribe{
     display: flex;
     flex-direction: column;
+    width: 342px;
  }
  .subscribe ::placeholder{
     font-weight: 500;

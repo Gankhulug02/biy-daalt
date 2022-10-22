@@ -219,7 +219,20 @@ footer{
 .subscribe{
     display: flex;
     flex-direction: column;
+    width: 342px;
 }
+.subscribe ::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;  
+    color: #9C9C9C;
+ }
+ .subscribe input{
+    padding: 18px 32px;
+    border-width: 0ch;
+    border-radius: 100px;
+    margin-bottom: 16px;
+ }
 .subscribe p{
     color:#9C9C9C;
     width: 342px;
