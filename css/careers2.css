@@ -1,0 +1,226 @@
+@font-face {
+    font-family: poppins;
+    src: url(/fonts/Poppins-1/Poppins-Medium.ttf);
+ }
+ *{
+    font-family:poppins;
+ }
+ body{
+    margin: 0;
+ }
+ .background{
+    margin: auto;
+    /* background-color: wheat; */
+    max-width: 1280px;
+    height:fit-content;
+    /* margin-bottom: 128px; */
+ }
+ a:link { text-decoration: none; }
+ nav:first-child{
+    padding: 0px;
+    margin: auto;
+    /* background-color: rgba(213, 213, 213, 0.352); */
+    display: flex;
+    max-width: 1280px;
+    height: 52px;
+    justify-content: space-between;
+    padding: 16px 0px;
+    align-items: center;
+ }
+.navL{
+    /* background-color: rgb(163, 211, 25); */
+    justify-content: start;
+    text-align: center;
+ }
+.navR{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: bisque; */
+}
+ nav ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 76px;
+    align-items: center;
+    color: #394149;
+}
+ nav p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: #F58A07;
+    background: rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    padding: 18px 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+    margin: 122px 0px 64px 0px;
+}
+ .job p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B5B5B;
+}
+.job{
+    display: flex;
+}
+.job-left{
+    max-width: 640px;
+}
+.job-right{
+    margin: auto;
+}
+.career-details{
+    display: flex;
+    background-color:   rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    padding: 64px;
+    margin-top: 64px;
+    margin-bottom: 128px;
+}
+.career-details-text{
+    max-width: 842px;
+    margin: auto;
+}
+.career-details-text p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+    line-height: 28px;
+}
+.career-details-title h2:first-child{
+    color: #F58A07;
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input{
+    background: rgba(210, 218, 237, 0.17);
+    width: 628px;
+    border-radius: 27px;
+    justify-content: space-between;
+    /* margin: px; */
+    /* flex: 1; */
+}
+.input p{
+    padding:19px 32px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+}
+.input-1{
+    margin:0px 12px 12px 0px;
+}
+.input-2{
+    margin: 0px 0px 12px 12px;
+}
+.input-3{
+    margin:0px 12px 12px 0px;
+}
+.input-4{
+    margin: 0px 0px 12px 12px;
+}
+.input-5{
+    flex-grow: 1;
+    height: 215px;
+    padding-top: 10px;
+    margin-top: 12px;
+}
+.button{
+    margin: 32px 0px 142px 0px;
+    display: flex;
+}
+.button a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: white;
+    background-color: #F58A07;
+    padding: 18px 32px;
+    border-radius: 40px;
+}
+ footer{
+    background: #063255;
+    color: white;
+    height: 463px;
+    position: relative;
+ }
+ .footer p{
+    color: white;
+ }
+ .footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px ;
+ }
+ .subscribe{
+    display: flex;
+    flex-direction: column;
+ }
+ .subscribe p{
+    color:#9C9C9C;
+    width: 342px;
+    background-color: white;
+    padding: 18px 32px;
+    border-radius: 50px;
+    margin-bottom: 16px ;
+ }
+ .subscribe a{
+    max-width: 75px;
+    padding: 18px 32px ;
+    background-color: #F58A07;
+    border-radius: 40px;
+    color: white;
+ }
+ .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 82px ;
+ }
+ .bottom-right{
+    display: flex;
+    justify-content: space-between;
+    width: 289px;
+    margin-left: 32px;
+ }
+ .orange-right {
+    width: 55px;
+    height: 287px;
+    background-color: #F58A07;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    right: 0;
+    top: 40px;
+ }
+ .orange-left{
+    width: 53px;
+    height: 144px;
+    border-top-right-radius: 20px;
+    position: absolute;
+    background-color: #F58A07;
+    top: 319px;
+ }
+ 
