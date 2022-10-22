@@ -118,10 +118,9 @@ header h1{
     width: 628px;
     border-radius: 27px;
     justify-content: space-between;
-    /* margin: px; */
-    /* flex: 1; */
+    border-width: 0ch;
 }
-.input p{
+.inputs ::placeholder{
     padding:19px 32px;
     margin: 0;
     font-style: normal;
@@ -129,6 +128,9 @@ header h1{
     font-size: 16px;
     line-height: 19px;
     color: #9C9C9C;
+}
+.inputs input{
+    padding: 19px 32px;
 }
 .input-1{
     margin:0px 12px 12px 0px;
@@ -143,7 +145,7 @@ header h1{
     margin: 0px 0px 12px 12px;
 }
 .input-5{
-    flex-grow: 1;
+    flex-grow: 4;
     height: 215px;
     padding-top: 10px;
     margin-top: 12px;
