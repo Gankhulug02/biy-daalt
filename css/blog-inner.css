@@ -86,6 +86,7 @@ header img{
     line-height: 72px;
     letter-spacing: -0.03em;
     color: #1D3444;
+    margin-top: 0;
 }
 .blog-item-text p{
     font-style: normal;
@@ -100,6 +101,7 @@ header img{
     max-width: 752px;
     height:fit-content;
     margin-bottom: 128px;
+    margin-top: -3%;
 }
 .blog-item-text p{
     margin: 24px 0px 24px 0px;

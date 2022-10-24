@@ -85,7 +85,8 @@ header{
 .header-member{
     display: flex;
     align-items: center;
-    /* width: 450px ; */
+    width: 490px ;
+    gap: 8px;
 }
 .header-member img{
     width: 32px;
@@ -203,6 +204,21 @@ header{
 }
 .blog-item5{
     order: 3;
+}
+.button{
+    margin: 32px 0px 142px 0px;
+    display: flex;
+}
+button{
+    border-width: 0cm;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    color: white;
+    background-color: #F58A07;
+    padding: 18px 32px;
+    border-radius: 40px;
+    width: fit-content;
 }
 footer{
     background: #063255;

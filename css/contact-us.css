@@ -86,7 +86,7 @@ header p{
 }
 .header-right{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* width: 500px; */
     flex: 1;
 }
@@ -112,6 +112,7 @@ header p{
     border-radius: 27px;   
     padding: 17px 32px; 
     margin-bottom: 16px;
+    gap: 16px;
 }
 .contacts ::placeholder{
     font-family: 'poppins';

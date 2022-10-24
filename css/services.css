@@ -2,8 +2,9 @@
     font-family: poppins;
     src: url(/fonts/Poppins-1/Poppins-SemiBold.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 *{
-    font-family:poppins;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     margin: 0;
@@ -82,6 +83,8 @@ header{
     letter-spacing: -0.03em;
     color: #1D3444;
     max-width: 618px;
+    max-height: fit-content;
+    margin: 0;
 }
 .h-left p{
     font-style: normal;
@@ -91,6 +94,7 @@ header{
     color: #5B5B5B;
     max-width: 510px;
     margin-bottom: 32px;
+    margin-top: 22px;
 }
 .h-left a{
     font-style: normal;
@@ -103,11 +107,15 @@ header{
     border-radius: 50px;
     max-width:fit-content;
 }
+.h-right{
+    background-color: white;
+}
 .h-right img{
     border-radius: 20px;
     max-width: 616px;
     max-height: 650px;
     flex: 1;
+    mix-blend-mode: luminosity;
 }
 .orange{
     position: absolute;
@@ -120,6 +128,10 @@ header{
 }
 .feature-image{
     position: relative;
+    background-color: white;
+}
+.feature-image img{
+    mix-blend-mode: luminosity;
 }
 .feature-section{
     /* background-color: aqua; */
@@ -142,15 +154,12 @@ header{
 }
 .feature p{
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 100;
     line-height: 30px;
     color: #5B5B5B;
 }
 .feature ul{
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
     line-height: 30px;
     color: #5B5B5B;
 }
