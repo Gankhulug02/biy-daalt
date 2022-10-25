@@ -107,15 +107,12 @@ header{
     border-radius: 50px;
     max-width:fit-content;
 }
-.h-right{
-    background-color: white;
-}
+
 .h-right img{
     border-radius: 20px;
     max-width: 616px;
     max-height: 650px;
     flex: 1;
-    mix-blend-mode: luminosity;
 }
 .orange{
     position: absolute;
@@ -370,6 +367,9 @@ footer{
     justify-content: space-between;
     padding-top: 80px ;
 }
+.social img{
+    margin-right: 23px;
+ }
 .subscribe{
     display: flex;
     flex-direction: column;

@@ -177,6 +177,9 @@ header h1{
     justify-content: space-between;
     padding-top: 80px ;
  }
+ .social img{
+    margin-right: 23px;
+ }
  .subscribe{
     display: flex;
     flex-direction: column;
